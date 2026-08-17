@@ -12,7 +12,6 @@ int main(int argc, char *argv[]) {
     printf("ERROR! Usage: ./fold_potential config_file\nargc : %d\n", argc);
     exit(1);
   }
-
   /* MPI initialization */
   MPI_Init(&argc, &argv);
   mpi_world_comm = MPI_COMM_WORLD;
@@ -46,6 +45,7 @@ int main(int argc, char *argv[]) {
   for (i=0;i<nresidues;i++)
     total_ntorsions += native_residue[i].ntorsions;
 
+  printf("newtest\n");
   if (CLUSTER_MOVE && USE_CLUSTER){
     fprintf(STATUS, "WARNING! KNOWLEDGE MOVES ARE IMPLEMENTED! THESE DO NOT SATISFY DETAILED BALANCE!  \n ");
   }

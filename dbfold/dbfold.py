@@ -75,6 +75,7 @@ class Protein():
     def generate_subs(self, d_cutoff=6, min_seq_separation=8, contact_sep_thresh=7, min_clustersize=6, savepath = None):
         native_contacts, substructures = analyze_structures.identify_native_substructures(self.native_structure, d_cutoff, min_seq_separation, contact_sep_thresh, min_clustersize)
         native_distances = analyze_structures.find_native_contacts(self.native_structure, d_cutoff, min_seq_separation, mode = 'distances') #computes pairwise distances between pairs of residues in native structure
+        print(substructures)
         self.substructures = substructures
         Nsubs = np.shape(substructures)[2]
         alphabet ='abcdefghijklmnopqrstuvwxyz' 

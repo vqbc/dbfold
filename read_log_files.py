@@ -128,7 +128,7 @@ def read_file(PDB_files, variables):
 	data = [x for i, x in enumerate(data) if i in nonzero_lengths]
 	lens = [l for i, l in enumerate(lens) if i in nonzero_lengths]
 	
-	data=np.vstack((x[:, 0:min(lens), :] for x in data))
+	data=np.vstack([x[:, 0:min(lens), :] for x in data])
 	#print(data[0,:,1])
 	#We have created an array data that is files (i.e. conditions) by timepoints by variables
 	return data, temperatures, setpoints, np.array(times) 

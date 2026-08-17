@@ -445,7 +445,7 @@ def plotTrajectoryTimecourses(paths, var, trajectories, legend_loc = None, title
         
         #traj_indices = []
     for t, traj in enumerate(trajectories):
-        #print(t)
+        #print(t
         traj_index = [j for j, string in enumerate(log_files) if traj in string ][0]
         #traj_indices.append([j for j, string in enumerate(log_files) if traj in string ][0])
 

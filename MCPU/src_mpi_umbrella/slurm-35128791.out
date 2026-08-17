@@ -1,0 +1,11 @@
+srun: error: n0083.savio4: tasks 26-27,29,31-32,34,38-39,41-43,46: Exited with exit code 1
+srun: Terminating StepId=35128791.0
+srun: error: n0074.savio4: tasks 0,2,4-5,7,9-11,16-17,20,23-24: Exited with exit code 1
+[2026-06-19T15:18:39.904] error: *** STEP 35128791.0 ON n0074.savio4 CANCELLED AT 2026-06-19T15:18:39 DUE TO TASK FAILURE ***
+srun: error: n0074.savio4: tasks 1,6,15,18: Exited with exit code 1
+srun: error: n0083.savio4: tasks 25,28,30,35,37,40,45,47-49: Terminated
+srun: error: n0074.savio4: tasks 3,8,12-14,19,21-22: Terminated
+srun: error: n0083.savio4: tasks 33,36,44: Exited with exit code 1
+srun: error: n0084.savio4: tasks 50-74: Terminated
+srun: error: n0087.savio4: tasks 75-99: Terminated
+srun: Force Terminated StepId=35128791.0

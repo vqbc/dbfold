@@ -1,0 +1,187 @@
+[n0039:266454:0:266454] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x71)
+==== backtrace (tid: 266454) ====
+ 0  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(ucs_handle_error+0x294) [0x14e102f470a4]
+ 1  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e25f) [0x14e102f4725f]
+ 2  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e526) [0x14e102f47526]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x14e1044f7990]
+ 4  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x41d2cb]
+ 5  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x428e6c]
+ 6  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401985]
+ 7  /lib64/libc.so.6(__libc_start_main+0xe5) [0x14e104149865]
+ 8  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401e8e]
+=================================
+[n0040:2547348:0:2547348] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x71)
+==== backtrace (tid:2547348) ====
+ 0  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(ucs_handle_error+0x294) [0x15514a1020a4]
+ 1  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e25f) [0x15514a10225f]
+ 2  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e526) [0x15514a102526]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x15514b6b2990]
+ 4  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x41d2cb]
+ 5  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x428e6c]
+ 6  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401985]
+ 7  /lib64/libc.so.6(__libc_start_main+0xe5) [0x15514b304865]
+ 8  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401e8e]
+=================================
+[n0044:1299104:0:1299104] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x71)
+==== backtrace (tid:1299104) ====
+ 0  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(ucs_handle_error+0x294) [0x147a195c20a4]
+ 1  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e25f) [0x147a195c225f]
+ 2  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e526) [0x147a195c2526]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x147a1ab72990]
+ 4  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x41d2cb]
+ 5  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x428e6c]
+ 6  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401985]
+ 7  /lib64/libc.so.6(__libc_start_main+0xe5) [0x147a1a7c4865]
+ 8  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401e8e]
+=================================
+[n0033:731072:0:731072] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x71)
+[n0041:1360796:0:1360796] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x71)
+==== backtrace (tid:1360796) ====
+ 0  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(ucs_handle_error+0x294) [0x15142149a0a4]
+ 1  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e25f) [0x15142149a25f]
+ 2  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e526) [0x15142149a526]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x151422a4a990]
+ 4  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x41d2cb]
+ 5  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x428e6c]
+ 6  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401985]
+ 7  /lib64/libc.so.6(__libc_start_main+0xe5) [0x15142269c865]
+ 8  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401e8e]
+==== backtrace (tid: 731072) ====
+=================================
+ 0  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(ucs_handle_error+0x294) [0x152b74a9c0a4]
+ 1  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e25f) [0x152b74a9c25f]
+ 2  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e526) [0x152b74a9c526]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x152b7604c990]
+ 4  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x41d2cb]
+ 5  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x428e6c]
+ 6  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401985]
+ 7  /lib64/libc.so.6(__libc_start_main+0xe5) [0x152b75c9e865]
+ 8  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401e8e]
+=================================
+[n0031:3868595:0:3868595] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x71)
+==== backtrace (tid:3868595) ====
+[n0043:2479636:0:2479636] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x71)
+ 0  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(ucs_handle_error+0x294) [0x1459a0fb20a4]
+ 1  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e25f) [0x1459a0fb225f]
+ 2  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e526) [0x1459a0fb2526]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x1459a2562990]
+ 4  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x41d2cb]
+ 5  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x428e6c]
+ 6  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401985]
+ 7  /lib64/libc.so.6(__libc_start_main+0xe5) [0x1459a21b4865]
+ 8  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401e8e]
+=================================
+[n0046:2507295:0:2507295] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x71)
+==== backtrace (tid:2507295) ====
+ 0  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(ucs_handle_error+0x294) [0x14869492c0a4]
+ 1  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e25f) [0x14869492c25f]
+ 2  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e526) [0x14869492c526]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x148695edc990]
+ 4  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x41d2cb]
+==== backtrace (tid:2479636) ====
+ 5  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x428e6c]
+ 0  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(ucs_handle_error+0x294) [0x148e320980a4]
+ 6  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401985]
+ 1  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e25f) [0x148e3209825f]
+ 7  /lib64/libc.so.6(__libc_start_main+0xe5) [0x148695b2e865]
+ 2  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e526) [0x148e32098526]
+ 8  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401e8e]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x148e33648990]
+ 4  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x41d2cb]
+=================================
+ 5  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x428e6c]
+ 6  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401985]
+ 7  /lib64/libc.so.6(__libc_start_main+0xe5) [0x148e3329a865]
+ 8  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401e8e]
+=================================
+[n0045:1285306:0:1285306] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x71)
+[n0034:993753:0:993753] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x71)
+==== backtrace (tid:1285306) ====
+ 0  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(ucs_handle_error+0x294) [0x1539b0cad0a4]
+ 1  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e25f) [0x1539b0cad25f]
+ 2  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e526) [0x1539b0cad526]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x1539b225d990]
+ 4  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x41d2cb]
+ 5  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x428e6c]
+ 6  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401985]
+ 7  /lib64/libc.so.6(__libc_start_main+0xe5) [0x1539b1eaf865]
+ 8  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401e8e]
+=================================
+==== backtrace (tid: 993753) ====
+ 0  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(ucs_handle_error+0x294) [0x1520e76df0a4]
+ 1  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e25f) [0x1520e76df25f]
+ 2  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e526) [0x1520e76df526]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x1520e8c8f990]
+ 4  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x41d2cb]
+ 5  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x428e6c]
+ 6  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401985]
+ 7  /lib64/libc.so.6(__libc_start_main+0xe5) [0x1520e88e1865]
+ 8  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401e8e]
+=================================
+[n0047:3516575:0:3516575] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x71)
+==== backtrace (tid:3516575) ====
+ 0  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(ucs_handle_error+0x294) [0x14df515ad0a4]
+ 1  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e25f) [0x14df515ad25f]
+ 2  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e526) [0x14df515ad526]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x14df52b5d990]
+ 4  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x41d2cb]
+ 5  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x428e6c]
+ 6  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401985]
+ 7  /lib64/libc.so.6(__libc_start_main+0xe5) [0x14df527af865]
+ 8  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401e8e]
+=================================
+[n0050:111816:0:111816] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x71)
+==== backtrace (tid: 111816) ====
+ 0  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(ucs_handle_error+0x294) [0x14f4d42b20a4]
+ 1  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e25f) [0x14f4d42b225f]
+ 2  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e526) [0x14f4d42b2526]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x14f4d5862990]
+ 4  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x41d2cb]
+ 5  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x428e6c]
+ 6  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401985]
+ 7  /lib64/libc.so.6(__libc_start_main+0xe5) [0x14f4d54b4865]
+ 8  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401e8e]
+=================================
+[n0049:907781:0:907781] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x71)
+==== backtrace (tid: 907781) ====
+ 0  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(ucs_handle_error+0x294) [0x14a7dcb5e0a4]
+ 1  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e25f) [0x14a7dcb5e25f]
+ 2  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e526) [0x14a7dcb5e526]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x14a7de10e990]
+ 4  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x41d2cb]
+ 5  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x428e6c]
+ 6  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401985]
+ 7  /lib64/libc.so.6(__libc_start_main+0xe5) [0x14a7ddd60865]
+ 8  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401e8e]
+=================================
+[n0048:3263193:0:3263193] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x71)
+==== backtrace (tid:3263193) ====
+ 0  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(ucs_handle_error+0x294) [0x15364c10c0a4]
+ 1  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e25f) [0x15364c10c25f]
+ 2  /global/software/rocky-8.x86_64/gcc/linux-rocky8-x86_64/gcc-11.4.0/ucx-1.14.1-ti2ouifsgmkyimluajewqpvcufrchdyx/lib/libucs.so.0(+0x2e526) [0x15364c10c526]
+ 3  /lib64/libpthread.so.0(+0x12990) [0x15364d6bc990]
+ 4  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x41d2cb]
+ 5  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x428e6c]
+ 6  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401985]
+ 7  /lib64/libc.so.6(__libc_start_main+0xe5) [0x15364d30e865]
+ 8  /global/home/users/achang99/dbfold/MCPU/src_mpi_umbrella/./fold_potential_mpi() [0x401e8e]
+=================================
+srun: error: n0039.savio4: task 3: Segmentation fault (core dumped)
+srun: Terminating StepId=37673691.0
+srun: error: n0044.savio4: task 7: Segmentation fault (core dumped)
+[2026-08-17T14:47:32.223] error: *** STEP 37673691.0 ON n0031.savio4 CANCELLED AT 2026-08-17T14:47:32 DUE TO TASK FAILURE ***
+srun: error: n0040.savio4: task 4: Segmentation fault (core dumped)
+srun: error: n0045.savio4: task 8: Segmentation fault (core dumped)
+srun: error: n0043.savio4: task 6: Segmentation fault (core dumped)
+srun: error: n0046.savio4: task 9: Segmentation fault (core dumped)
+srun: error: n0047.savio4: task 10: Segmentation fault (core dumped)
+srun: error: n0050.savio4: task 13: Segmentation fault (core dumped)
+srun: error: n0052.savio4: task 15: Terminated
+srun: error: n0051.savio4: task 14: Terminated
+srun: error: n0033.savio4: task 1: Segmentation fault (core dumped)
+srun: error: n0031.savio4: task 0: Segmentation fault (core dumped)
+srun: error: n0049.savio4: task 12: Segmentation fault (core dumped)
+srun: error: n0034.savio4: task 2: Segmentation fault (core dumped)
+srun: error: n0041.savio4: task 5: Segmentation fault (core dumped)
+srun: error: n0048.savio4: task 11: Segmentation fault (core dumped)
+srun: Force Terminated StepId=37673691.0
